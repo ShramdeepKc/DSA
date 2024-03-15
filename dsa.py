@@ -91,7 +91,7 @@ class LinkedList:
             self.tail = None
         return temp.value
 
-
+#printoutput
 my_linked_list = LinkedList(1)
 my_linked_list.append(2)
 my_linked_list.append(3)
@@ -100,7 +100,5 @@ my_linked_list.pop()
 my_linked_list.pop()
 my_linked_list.pop()
 my_linked_list.pop()
-
 print(my_linked_list.pop())
-
 my_linked_list.print_list()
